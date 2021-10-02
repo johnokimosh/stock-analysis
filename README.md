@@ -14,15 +14,15 @@ Client approved existing VBA solution work on provided dataset green_stock.xls. 
 
 The following changes were made to the code:
 
-​	A tickerIndex variable was added and set to zero.
+  A tickerIndex variable was added and set to zero.
 
-​	Three output arrays were created to hold data.
+  Three output arrays were created to hold data.
 
-​		tickerVolumes()
+    tickerVolumes()
 
-​		tickerStartingPrices()
+    tickerStartingPrices()
 
-​		tickerEndingPrices()
+    tickerEndingPrices()
 
 The new variables and arrays were created to remove hardcoded values to the code to and to improve the overall efficiency of the macro. These changes also make it more efficient to refactor the code at a later date. It also allows the improvement requested by the client by making the code run more efficiently.
 
@@ -30,11 +30,11 @@ The new variables and arrays were created to remove hardcoded values to the code
 
 With the above mentioned changes the outcomes were observed.
 
-
+![This is an image](VBA_Challenge_2017.PNG)
 
 For the 2017 dataset, when compared to the green_stocks.xls macro, the changed improved the speed to complete the macro from 0.9023438 (green_stocks.xls) to 0.78125 (VBA_Challenge.xls). An improvement of 13.4199%
 
-
+![This is an image](VBA_Challenge_2018.PNG)
 
 For the 2018 dataset, when compared to the green_stocks.xls macro, the changed improved the speed to complete the macro from 0.8867188 (green_stocks.xls) to 0.765625 (VBA_Challenge.xls). An improvement of 13.6564%
 
